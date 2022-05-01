@@ -1,0 +1,148 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+
+::selection {
+  background-color: pink;
+}
+
+
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    margin: 0px;
+    height: 100%;
+    width: 100%;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 1.6rem;
+    line-height: 1.5;
+    background-color: #EFEDED;
+}
+
+
+img {
+    max-width: 100%;
+    vertical-align: bottom;
+}
+
+
+
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+ul {
+    padding-left: 0;
+}
+
+
+li {
+    list-style: none;
+}
+
+
+/* Typography */
+h1 {
+    font-size: 3rem;
+    text-decoration: underline;
+    text-align: left;
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+    font-weight: normal;
+}
+
+
+h2 {
+    font-size: 3rem;
+    text-align: left;
+    margin-bottom: 5rem;
+    font-weight: normal;
+    line-height: 1.7;
+    
+    
+}
+
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+   
+}
+
+.container .text {
+    width: 100%;
+    margin: 0 auto;
+    padding: 3.5%;
+    max-width: 68rem;
+    background-color: white;
+}
+
+.text p {
+    text-align: justify;
+    margin-bottom: 7.6rem;
+
+}
+
+.btn {
+    padding: 1.6rem 7.7rem;
+    border-radius: 30px;
+    margin-bottom: 4rem;
+    background-color: transparent;
+
+}
+
+.btn:hover {
+    background-color: #efeded;
+    transition: all 0.25s ease;
+}
+
+
+
+
+
+.container img {
+    width: 100%;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    
+}
+
+
+@media screen and (min-width:1000px) {
+    .container {
+        
+        max-width: 100rem;
+        height: 90.5rem;
+        margin: 10rem auto 0;
+        position: relative;
+
+
+
+    }
+
+    .text h2, .text p {
+        width: 39.7rem;
+       
+    }
+
+
+    .container img {
+        position: absolute;
+        right: 2rem;
+        top: 14rem;
+        max-width: 40rem;
+        height: 40rem;
+    }
+
+    .container .text {
+        margin-left: 0;
+    }
+
+
+
+}
